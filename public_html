@@ -1,1 +1,46 @@
+<!-- Troy Ciardelli-Zaryckyj  -->
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="abou">
+        <h2>About Me</h2>
+        <p>This section can contain information about yourself, your skills, and your professional background.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Describe your projects here. Include links to project work, images, or code if applicable.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Provide contact details or a contact form here.</p>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 by <your name>. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your script link here -->
+    <script src="scripts.js"></script>
+</body>
+</html>
