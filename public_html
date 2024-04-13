@@ -1,46 +1,70 @@
-<!-- Troy Ciardelli-Zaryckyj  -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Portfolio</title>
-     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="simple.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        /* Your other styles */
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1 id="title">Hello! My name is Troy</h1>
     </header>
 
-    <section id="abou">
-        <h2>About Me</h2>
-        <p>This section can contain information about yourself, your skills, and your professional background.</p>
-    </section>
+    <img src="image_123986672.JPG" alt="Troy at University" id="pic">
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Describe your projects here. Include links to project work, images, or code if applicable.</p>
-    </section>
+    <header>
+        <h2 class ="popUp">Who am I?</h2>
+    </header>
 
+    <img src="IMG_0062.JPG" alt="Troy at University" id="profilePic">
+
+    <p class = "popUp">
+        My name is Troy, and I'm a sophomore at the University of New Hampshire, 
+            where I am majoring in Computer Science. Here, 
+            I've been developing crucial engineering skills, 
+            particularly those vital for teamwork in the tech industry. 
+            My education has not only been about understanding complex theories and applying them to real-world problems 
+            but also about exploring the collaborative nature of technology development. 
+            I'm constantly on the lookout for opportunities to expand my knowledge and skills, 
+            whether through internships, research projects, or collaborative initiatives.    
+            I have known I wanted to do something within the tech industry since I was a freshmen in highschool
+            and I am extremely excited to make those dreams come true.
+             
+    </p>
+
+
+
+    <header>
+        <h4 class = "popUp" >Projects</h4>
+    </header>
+    
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Provide contact details or a contact form here.</p>
+        <h3>Contact</h3>
+        <a href="mailto:troyciardellizaryckyj@gmail.com">Email Me</a>
+        <div></div>
+        <a href="https://www.linkedin.com/in/troy-ciardelli-zaryckyj-4358432b9/" target="_blank">Connect on LinkedIn</a>
+        <div></div>
+        <a href = "TroyRes.pdf" >Resume </a>
     </section>
+    
+
 
     <footer>
-        <p>Copyright © 2024 by <your name>. All rights reserved.</p>
+        <p>Copyright © 2024 by Troy Ciardelli-Zaryckyj. All rights reserved.</p>
     </footer>
 
-    <!-- Add your script link here -->
     <script src="scripts.js"></script>
 </body>
 </html>

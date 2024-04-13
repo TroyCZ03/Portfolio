@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var popUpElement = document.getElementById('popUpElement'); // Make sure this ID is assigned to the element you want to animate.
+    const elements = document.querySelectorAll('.popUp');
 
-    function isInViewport(element) {
-        var rect = element.getBoundingClientRect();
+    function isInViewport(el) {
+        const rect = el.getBoundingClientRect();
         return (
             rect.top >= 0 &&
             rect.left >= 0 &&
@@ -11,11 +11,14 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     }
 
-    function runOnScroll() {
-        if (popUpElement && isInViewport(popUpElement)) {
-            popUpElement.classList.add('visible');
+    function checkVisibility() {
+        for (let el of elements) {
+            if (isInViewport(el)) {
+                el.classList.add('visible');
+            }
         }
     }
 
-    window.addEventListener('scroll', runOnScroll);
+    window.addEventListener('scroll', checkVisibility);
+    checkVisibility();  // Initial check on load
 });
